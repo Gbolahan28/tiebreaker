@@ -1,0 +1,135 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Quintessential', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+button{
+  position: absolute;
+  margin-left: 15%;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Quintessential', cursive;
+  margin-top: 15%;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+    text-align: center;
+    background-color: #E3BEC6;
+    padding: 7%  15%;
+}
+
+.foot-word{
+  color: #000000;
+  font-family: 'Quintessential', cursive;
+  background-color: #E3BEC6;
+  text-align: center;
+margin-top: 0%;
+
+}
+
+.far{
+  size: 2ex;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  position: relative;
+}
+
+
+/* mobile responsivenes */
+@media (max-width: 767px) and (min-width: 481px) {
+  .container{
+    display: inline-block;
+    text-align: center;
+  }
+  
+.dice{
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Quintessential', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Quintessential', cursive;
+  margin-top: 15%;
+  display: inline-block;
+  text-align: center;
+}
+
+button{
+  align-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+}
